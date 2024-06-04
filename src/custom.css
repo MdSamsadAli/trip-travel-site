@@ -1,0 +1,46 @@
+.slick-prev,
+.slick-next {
+  top: 40%;
+  color: orange;
+  z-index: 1;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: orange;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group:hover .group-hover\:max-h-40 {
+  max-height: 10rem;
+}
+
+.transition-max-height {
+  transition: max-height 0.5s ease-in-out;
+}
+
+.banner-img {
+  height: 600px;
+}
+
+.newsletter h4::after {
+  content: "";
+  background-color: orange;
+  height: 6px;
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media (max-width: 768px) {
+  .w-fullscreen768 {
+    width: 100%;
+  }
+  .trend.mx-10 {
+    margin: 0;
+  }
+}
